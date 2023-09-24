@@ -3,3 +3,34 @@
 *{
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+p{
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.topBody{
+  z-index: 50;
+  transform: translateY(300px);
+}
+
+.post{
+  width: 100%;
+}
+
+.post-content{
+  
+}
+
+.lg-nav p{
+  font-weight: 400;
+  margin-inline: 0.7rem;
+  color: #8A8A8A;
+}
+
+@media only screen and (min-width:720px) {
+  .post{
+    width: 75%;
+  }
+}
