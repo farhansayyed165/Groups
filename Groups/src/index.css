@@ -19,18 +19,30 @@ p{
   width: 100%;
 }
 
+.right-sticky{
+  width: 40%;
+}
+
 .post-content{
   
 }
 
-.lg-nav p{
+.lg-nav-sections p{
   font-weight: 400;
   margin-inline: 0.7rem;
   color: #8A8A8A;
 }
 
+.lg-nav{
+  width: 80%;
+}
+
+.info{
+  transform: translateY(-14px);
+}
+
 @media only screen and (min-width:720px) {
   .post{
-    width: 75%;
+    width: 70%;
   }
 }

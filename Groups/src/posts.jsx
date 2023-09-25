@@ -21,6 +21,7 @@ export const posts = [
     },
     {
         type:"🗓️ Meetup",
+        typeButton:1,
         title:"Finance & Investment Elite Social Mixer @Lujiazui",
         img:"https://res.cloudinary.com/ddkjpzrso/image/upload/v1695540066/Groups/post/3_dwe1kp.png",
         user:{
@@ -32,6 +33,7 @@ export const posts = [
     },
     {
         type:"💼️ Job",
+        typeButton:2,
         title:"Software Developer - II",
         job:"Innovaccer Analytics Private Ltd.",
         img:"",

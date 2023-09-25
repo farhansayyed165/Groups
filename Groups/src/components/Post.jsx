@@ -20,8 +20,15 @@ function Post({ data }) {
             <CiLocationOn size={20} />
             <p className='post-content  fw-medium' >{data.location}</p>
           </span>}
+          
         </div>
-        <div className='d-flex w-100 justify-content-between mt-3'>
+          {data.typeButton == 1 && <div className='w-100'>
+              <p className=' text-center p-2 border-2 border me-2 my-2 rounded' style={{color:"orangered"}}>Visit Website</p>
+            </div>}
+          {data.typeButton == 2 && <div className='w-100'>
+              <p className=' text-center p-2 border-2 border me-2 my-2 rounded' style={{color:"#02B875"}}>Apply on Timesjobs</p>
+            </div>}
+        <div className='d-flex w-100 justify-content-between mt-3 pb-3'>
           <div className=' d-flex'>
             <img src={data.user.avatar} alt="" className='me-2' style={{ width: "30px", height: "30px" }} />
             <div className=''>
